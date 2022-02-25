@@ -1,0 +1,15 @@
+l=[]
+nonzero=[]
+c=0
+n=int(input('enter a n value'))
+for i in range(1,n+1):
+   x=int(input())
+   l.append(x)
+    
+for j in range(n):
+   if(l[j]!=0):
+     nonzero.append(l[j])
+     c=c+1 
+      
+      
+print(c,nonzero)
